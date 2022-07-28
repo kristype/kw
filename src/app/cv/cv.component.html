@@ -1,1 +1,7 @@
-<p>cv works!</p>
+<div>
+  <ul>
+    <li *ngFor="let experience of cvData.experience">
+      <app-experience [experience]="experience"></app-experience>
+    </li>
+  </ul>
+</div>

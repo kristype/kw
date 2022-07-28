@@ -1,0 +1,60 @@
+{
+  "experience": [
+    {
+      "company": "Norsk Helsenett",
+      "role": "Full stack software engineer",
+      "description": [
+        "I worked here!",
+        "I did security stuffs",
+        "And many other things, frontend, backend and stuffs"
+      ],
+      "from": "2020-08-01T00h:00:00.000Z",
+      "to": "2022-06-31T00h:00:00.000Z"
+    },
+    {
+      "company": "Lånekassen",
+      "role": "Tech lead",
+      "description": [
+        "I worked here!",
+        "I did security stuffs",
+        "And many other things, frontend, backend and stuffs"
+      ],
+      "from": "2018-08-01T00h:00:00.000Z",
+      "to": "2020-06-31T00h:00:00.000Z"
+    },
+    {
+      "company": "Norsk Helsenett",
+      "role": "Full stack software engineer",
+      "description": [
+        "I worked here!",
+        "I did security stuffs",
+        "And many other things, frontend, backend and stuffs"
+      ],
+      "from": "2018-01-01T00h:00:00.000Z",
+      "to": "2018-07-31T00h:00:00.000Z"
+    },
+    {
+      "company": "Comsol AS",
+      "role": "Full stack software engineer",
+      "description": [
+        "I worked here!",
+        "I did security stuffs",
+        "And many other things, frontend, backend and stuffs"
+      ],
+      "from": "2012-05-01T00h:00:00.000Z",
+      "to": "2017-12-31T00h:00:00.000Z"
+    }
+  ],
+  "education": [
+    {
+      "title": "Master of Science",
+      "school": "NTNU",
+      "description": "2 year master that specialiced into software development"
+    },
+    {
+      "title": "Bachelor in computer engineering",
+      "school": "NTNU / Høgskolen i sør trøndelag",
+      "description": "3 year bachelor that specialiced into software development"
+    }
+  ]
+}
