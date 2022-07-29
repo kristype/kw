@@ -1,8 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
-@import "@fontsource/montserrat";
+@import "@fontsource/montserrat/300.css";
+@import "@fontsource/montserrat/400.css";
+@import "@fontsource/montserrat/500.css";
+
+:root {
+    --content-max-width: 680px;
+
+    --spacing-s: 5px;
+    --spacing-n: 8px;
+    --spacing-m: 13px;
+    --spacing-l: 21px;
+    --spacing-xl: 34px;
+    --spacing-xxl: 55px;
+
+    --color-text: hsl(0, 0%, 95%);
+    --color-text-weak: hsl(0, 0%, 75%);
+    --color-background: hsl(0, 0%, 5%);
+
+    --size-s: 16px;
+    --size-n: 20px;
+    --size-m: 25px;
+    --size-l: 35px;
+    --size-xl: 41px;
+    --size-xxl: 52px;
+
+    --line-height-s: 28px;
+    --line-height-n: 34px;
+    --line-height-m: 41px;
+    --line-height-l: 52px;
+    --line-height-xl: 65px;
+    --line-height-xxl: 81px;
+ }
 
 html, body {
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: var(--size-n);
+    line-height: var(--line-height-n);
 }
 
 body {
@@ -10,7 +43,49 @@ body {
     background: hsl(0, 0%, 5%);
 }
 
+p {
+    margin: var(--spacing-n) 0 0;
+}
+
 ul {
     list-style-type: none;
     padding-left: 0;
+}
+
+li {
+    margin: 0 0 var(--spacing-n);
+}
+
+h1 {
+    font-size: var(--size-xl);
+    line-height: var(--line-height-xl);
+    margin: var(--spacing-xl) 0;
+}
+
+h2 {
+    font-size: var(--size-l);
+    line-height: var(--line-height-l);
+    margin: var(--spacing-l) 0;
+}
+
+h3 {
+    font-size: var(--size-l);
+    line-height: var(--line-height-l);
+    margin: var(--spacing-l) 0;
+}
+
+h4, h5, h6 {
+    font-size: var(--size-m);
+    line-height: var(--line-height-m);
+    margin: var(--spacing-m) 0;
+}
+
+.title {
+    font-weight: 500;
+}
+
+.caption {
+    margin-top: 0;
+    color: var(--color-text-weak);
+    font-weight: 300;
 }

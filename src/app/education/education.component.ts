@@ -1,15 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Education } from '../cv/cv';
 
 @Component({
-  selector: 'app-education',
+  selector: 'app-education[education]',
   templateUrl: './education.component.html',
-  styleUrls: ['./education.component.css']
+  styleUrls: ['./education.component.css'],
 })
 export class EducationComponent implements OnInit {
+  @Input()
+  public education!: Education;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

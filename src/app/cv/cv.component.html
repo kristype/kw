@@ -1,7 +1,13 @@
-<div>
-  <ul>
-    <li *ngFor="let experience of cvData.experience">
-      <app-experience [experience]="experience"></app-experience>
-    </li>
-  </ul>
-</div>
+<h2>Experience</h2>
+<ul class="experiences">
+  <li *ngFor="let experience of cvData.experience">
+    <app-experience [experience]="experience"></app-experience>
+  </li>
+</ul>
+
+<h2>Education</h2>
+<ul>
+  <li *ngFor="let education of cvData.education">
+    <app-education [education]="education"></app-education>
+  </li>
+</ul>

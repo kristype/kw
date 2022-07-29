@@ -8,11 +8,12 @@ export interface CV {
 export interface Education {
   title: string;
   school: string;
-  description: string;
+  description: string[];
 }
 
 export interface Experience {
   company: string;
+  company_logo: string;
   role: string;
   description: string[];
   from: string;
