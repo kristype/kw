@@ -1,5 +1,12 @@
-<p class="title">{{ experience.company }}</p>
-<p class="caption">{{ experience.role }}</p>
+<div class="header">
+  <p class="title">{{ experience.company }}</p>
+  <p class="caption">{{ experience.role }}</p>
+  <div class="logo"></div>
+</div>
 <ul>
   <li *ngFor="let point of experience.description">{{ point }}</li>
 </ul>
+<p class="caption">
+  From <strong>{{ experience.from | date: "MMMM y" }}</strong> to
+  <strong>{{ experience.to | date: "MMMM y" }}</strong>
+</p>

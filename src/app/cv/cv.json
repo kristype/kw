@@ -10,8 +10,8 @@
         "High focus on delivering a well tested and secure product that is used in the Norwegian Health Sector.",
         "Security Champion for the team and helped improve the security of the system."
       ],
-      "from": "2020-08-01T00h:00:00.000Z",
-      "to": "2022-06-31T00h:00:00.000Z"
+      "from": "2020-08-01T00:00:00.000Z",
+      "to": "2022-06-31T00:00:00.000Z"
     },
     {
       "company": "Lånekassen",
@@ -22,8 +22,8 @@
         "I did security stuffs",
         "And many other things, frontend, backend and stuffs"
       ],
-      "from": "2018-08-01T00h:00:00.000Z",
-      "to": "2020-06-31T00h:00:00.000Z"
+      "from": "2018-08-01T00:00:00.000Z",
+      "to": "2020-06-31T00:00:00.000Z"
     },
     {
       "company": "Norsk Helsenett",
@@ -34,8 +34,8 @@
         "I did security stuffs",
         "And many other things, frontend, backend and stuffs"
       ],
-      "from": "2018-01-01T00h:00:00.000Z",
-      "to": "2018-07-31T00h:00:00.000Z"
+      "from": "2018-01-01T00:00:00.000Z",
+      "to": "2018-07-31T00:00:00.000Z"
     },
     {
       "company": "Comsol AS",
@@ -46,8 +46,8 @@
         "I did security stuffs",
         "And many other things, frontend, backend and stuffs"
       ],
-      "from": "2012-05-01T00h:00:00.000Z",
-      "to": "2017-12-31T00h:00:00.000Z"
+      "from": "2012-05-01T00:00:00.000Z",
+      "to": "2017-12-31T00:00:00.000Z"
     }
   ],
   "education": [
@@ -56,8 +56,8 @@
       "school": "NTNU",
       "scool_logo": "",
       "description": ["2 year master that specialised in Software Development"],
-      "from": "2014-01-01T00h:00:00.000Z",
-      "to": "2017-12-31T00h:00:00.000Z"
+      "from": "2014-01-01T00:00:00.000Z",
+      "to": "2017-12-31T00:00:00.000Z"
     },
     {
       "title": "Bachelor of Computer Engineering",
@@ -66,8 +66,8 @@
       "description": [
         "3 year bachelor that specialised in Software Development"
       ],
-      "from": "2009-08-01T00h:00:00.000Z",
-      "to": "2017-12-31T00h:00:00.000Z"
+      "from": "2009-08-01T00:00:00.000Z",
+      "to": "2017-12-31T00:00:00.000Z"
     }
   ]
 }

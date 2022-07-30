@@ -1,3 +1,36 @@
-:host {
-    
+.header {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: auto 1fr;
+    grid-template-areas: "logo title"
+                         "logo caption";
+    column-gap: var(--spacing-m);
+    margin-left: calc(-50px - var(--spacing-m));
 }
+
+.header > .title {
+    grid-area: title;
+}
+
+.header > .caption {
+    grid-area: caption;
+}
+
+.header > .logo {
+    grid-area: logo;
+}
+
+.logo {
+    background: darkblue;
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
+
+
+ul {
+    margin-top: var(--spacing-m);
+}
+
+
+
