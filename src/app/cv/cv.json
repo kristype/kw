@@ -54,7 +54,7 @@
     {
       "title": "Master of Science",
       "school": "NTNU",
-      "scool_logo": "",
+      "school_logo": "",
       "description": ["2 year master that specialised in Software Development"],
       "from": "2014-01-01T00:00:00.000Z",
       "to": "2017-12-31T00:00:00.000Z"
@@ -62,7 +62,7 @@
     {
       "title": "Bachelor of Computer Engineering",
       "school": "NTNU / Høgskolen i Sør Trøndelag",
-      "scool_logo": "",
+      "school_logo": "",
       "description": [
         "3 year bachelor that specialised in Software Development"
       ],

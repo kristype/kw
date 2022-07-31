@@ -1,13 +1,27 @@
 <h2>Experience</h2>
 <ul class="experiences">
   <li *ngFor="let experience of cvData.experience">
-    <app-experience [experience]="experience"></app-experience>
+    <app-experience
+      [title]="experience.company"
+      [subTitle]="experience.role"
+      [logo]="experience.company_logo"
+      [description]="experience.description"
+      [from]="experience.from"
+      [to]="experience.to"
+    ></app-experience>
   </li>
 </ul>
 
 <h2>Education</h2>
 <ul>
   <li *ngFor="let education of cvData.education">
-    <app-education [education]="education"></app-education>
+    <app-experience
+      [title]="education.title"
+      [subTitle]="education.school"
+      [logo]="education.school_logo"
+      [description]="education.description"
+      [from]="education.from"
+      [to]="education.to"
+    ></app-experience>
   </li>
 </ul>
